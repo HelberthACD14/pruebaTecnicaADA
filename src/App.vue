@@ -1,5 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <fa :icon="[ 'fab' , 'github']"/>
   <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
 </template>
 
