@@ -1,17 +1,16 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <fa :icon="[ 'fab' , 'github']"/>
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+<template lang="pug">
+.container
+  feed
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import feed from './components/feed.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    feed
   }
 });
 </script>
